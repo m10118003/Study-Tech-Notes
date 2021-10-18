@@ -23,9 +23,9 @@
 ![](https://i.imgur.com/TfL48Ru.jpg)   
 
 
-# 樣板字串:   
+# 樣版字串:   
 ```
-寫了一張卡片的樣板後, 讓JS 去幫你自動生成, 內容跟資料會根據後端傳的資料去應用   
+寫了一張卡片的樣版後, 讓JS 去幫你自動生成, 內容跟資料會根據後端傳的資料去應用   
 ```
 
 # 參考資料:  
@@ -319,7 +319,7 @@ Math.floor(Math.random()*你需要的範圍) + 你的起始數字)
 > ![](https://i.imgur.com/SXRokyp.png)   
 
 - 要怎麼丟值?  
-> 樣板字串!  
+> 樣版字串!  
 > 宣告 rgb  = 亂數  
 > ![](https://i.imgur.com/iT94zaC.png)   
 > 如果不要顏色太淡, 可以往下降  
@@ -330,7 +330,7 @@ Math.floor(Math.random()*你需要的範圍) + 你的起始數字)
 > ![](https://i.imgur.com/8nybFkK.png)  
 
 
-## 帶進樣板字串
+## 帶進樣版字串
 
 > 用字串去串的寫法
 > ![](https://i.imgur.com/f2zTXXC.png)   
@@ -338,7 +338,7 @@ Math.floor(Math.random()*你需要的範圍) + 你的起始數字)
 > 如果不是完整 html, 一次累加再帶出來可能會爆掉  
 > 因為用字串畫面會很亂, 所以帶上用 ES6 的新寫法   
 
-- 接著做出樣板字串  
+- 接著做出樣版字串  
 > ![](https://i.imgur.com/gY8uVvr.png)   
 > 做出樣版字串, `${} `
 
@@ -381,7 +381,7 @@ Math.floor(Math.random()*你需要的範圍) + 你的起始數字)
 > 但是顏色會隨著遊玩次數變淡   
 
 - 如果第十題變淡, 分數就會是九分  
-> 做出樣板字串去拿值, 因為改變了顏色變淡(下個困難度)  
+> 做出樣版字串去拿值, 因為改變了顏色變淡(下個困難度)  
 > ![](https://i.imgur.com/8uaoAyJ.png)   
 
 
@@ -546,12 +546,19 @@ https://www.jb51.net/article/118860.htm
 
 ----
 
-# 練習導入 JSNO 的格式   
+# 做一個類似倉儲(分類)系統   
+
+- 結合跟 JSON 的練習使用, 來做一個頁面~  
+
+# 練習導入 JSON 的格式   
 
 # 做出這個畫面  
+
+![](https://i.imgur.com/k7BMa8p.png)  
 - sunyehfy good to eat  
 - 刻一個版面  
 - 進入網頁版全部商品列出來
+- 按下飲料的時候只有飲料, 點主食的時候只有主食的菜單  
 - 有 filter, 可以去選飲料   - 
 - 甜點跟飲料裡面都有珍奶  
 
@@ -562,6 +569,8 @@ https://www.jb51.net/article/118860.htm
 > ![](https://i.imgur.com/FJ0dZxZ.png)  
 
 > ![](https://i.imgur.com/p4KCPNN.png)   
+
+---
 
 # 建立一個 上益好好吃的版面   
 
@@ -619,6 +628,9 @@ https://www.jb51.net/article/118860.htm
 - html 請自由發揮  
 > ![](https://i.imgur.com/GcadLRa.png)  
 
+---
+
+# 利用 for loop 將設計好的版面印出(相應數量)   
 
 # 印出資料到圖片上  
 
@@ -631,6 +643,9 @@ https://www.jb51.net/article/118860.htm
 
 ![](https://i.imgur.com/AyLhoQE.png)
 
+---
+
+# 將卡片中的資訊 換成樣板字串   
 
 - 用 `=` 的話, 會一直被洗掉   
 > ![](https://i.imgur.com/GmNvpjl.png)   
@@ -644,6 +659,8 @@ https://www.jb51.net/article/118860.htm
 
 - html 和 CSS 會影響到 JS 寫的方法!!!   
 
+---
+
 # for loop 往上移會有個問題  
 
 ![](https://i.imgur.com/XaPsrI8.png)   
@@ -652,6 +669,8 @@ https://www.jb51.net/article/118860.htm
 > ![](https://i.imgur.com/fvI9Uzo.png)   
 > 因為程式是一行一行讀的   
 > 所以移到宣告前面就出是惹  
+
+---
 
 # JS 把卡片推出來   
 - 像是這樣    
@@ -667,12 +686,21 @@ https://www.jb51.net/article/118860.htm
 > 調整一下圖片 CSS   
 > ![](https://i.imgur.com/O7KdSGG.png)   
 
+---
 
 # 綁 onclick 參數  
+- 在NAV上綁上onclick 事件, 並且可以使傳送條件方便判斷   
 > ![](https://i.imgur.com/91Kg63V.png)   
 > ![](https://i.imgur.com/CqBqAE3.png)   
+> ![](https://i.imgur.com/kXQzsrP.png)   
 
-- 將 for loop 寫成 function 方便 nav 上面的按鈕去做呼叫的動作   
+
+---
+
+# 將 for loop 寫成 function   
+
+- 將 for loop 寫成 function 
+- 這樣可以方便 nav 上面的按鈕去做呼叫的動作   
 ![](https://i.imgur.com/DmaH0rs.png)   
 > 寫成 function, 用 show 去執行  
 > ![](https://i.imgur.com/IKT1sRr.png)    
@@ -684,11 +712,21 @@ https://www.jb51.net/article/118860.htm
 
 
 # 讓按下 all 有東西出來   
+- 在 innerHTML 執行前
+```
+使用if判斷 → "條件"是否符合 → 我們的 tag
+```
 - if 會加在 innerHTML 印出去之前   
 - 如果傳過來的值是 all   
 > ![](https://i.imgur.com/iBdrdrA.png)   
 
 # 但飲料有, 甜點沒有珍奶  
+
+> ![](https://i.imgur.com/9JfwTQE.png)   
+```
+為了解決珍珠奶茶有兩個 tag, 
+因此用 or(||) 去判斷 tag1 跟 tag2
+```
 > ![](https://i.imgur.com/gu5ZsK6.png)  
 > 要符合其中一個條件就印出來   
 > 讓 if 判斷用 || 去製造兩邊中只要一邊的值成立就印出  
@@ -700,12 +738,17 @@ https://www.jb51.net/article/118860.htm
 
 # 可以再更精簡一點  
 ![](https://i.imgur.com/dsDSAlp.png)  
-
+> 不過應該很吃效能 (Maximum call stack size exceeded)   
 > 再改成單行敘述  
 > 甚至可以去除 else   
 
 >![](https://i.imgur.com/hIkhBRG.jpg)   
 > 最後可以試試看, 看卡片能不能對齊   
+
+> 如果要降低效能使用可以改成這樣 ↓ (不知道為啥, 可能是 i 的判斷條件多跑一行 =, 如果純粹用 < SY\_gooodToEat\_Product.length, 有卡死的情況   
+> ![](https://i.imgur.com/G8CrE87.png)  
+
+
 
 ---
 
