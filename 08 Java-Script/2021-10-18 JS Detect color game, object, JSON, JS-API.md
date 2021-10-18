@@ -546,6 +546,7 @@ https://www.jb51.net/article/118860.htm
 
 ----
 
+# 練習導入 JSNO 的格式   
 
 # 做出這個畫面  
 - sunyehfy good to eat  
@@ -566,7 +567,9 @@ https://www.jb51.net/article/118860.htm
 
 1. 先做卡片  
 ```
-canvas 或 display 區塊
+1. canvas 或 display 區塊
+2. nav
+3. div 
 ```
 2. 需要導覽列區塊  
 
@@ -641,7 +644,7 @@ canvas 或 display 區塊
 
 - html 和 CSS 會影響到 JS 寫的方法!!!   
 
-## for loop 往上移會有個問題  
+# for loop 往上移會有個問題  
 
 ![](https://i.imgur.com/XaPsrI8.png)   
 
@@ -650,7 +653,7 @@ canvas 或 display 區塊
 > 因為程式是一行一行讀的   
 > 所以移到宣告前面就出是惹  
 
-## JS 把卡片推出來   
+# JS 把卡片推出來   
 - 像是這樣    
 ![](https://i.imgur.com/fWTrctK.png)   
 
@@ -674,18 +677,18 @@ canvas 或 display 區塊
 > 寫成 function, 用 show 去執行  
 > ![](https://i.imgur.com/IKT1sRr.png)    
 
-## 按下按鈕要清空一次  
+# 按下按鈕要清空一次  
 > ![](https://i.imgur.com/ho04e9P.png)  
 > 每個分類可以有對應的過濾條件  
 > 但按下 all 甚麼都沒有  
 
 
-## 讓按下 all 有東西出來   
+# 讓按下 all 有東西出來   
 - if 會加在 innerHTML 印出去之前   
 - 如果傳過來的值是 all   
 > ![](https://i.imgur.com/iBdrdrA.png)   
 
-## 但飲料有, 甜點沒有珍奶  
+# 但飲料有, 甜點沒有珍奶  
 > ![](https://i.imgur.com/gu5ZsK6.png)  
 > 要符合其中一個條件就印出來   
 > 讓 if 判斷用 || 去製造兩邊中只要一邊的值成立就印出  
@@ -696,7 +699,6 @@ canvas 或 display 區塊
 ---
 
 # 可以再更精簡一點  
-
 ![](https://i.imgur.com/dsDSAlp.png)  
 
 > 再改成單行敘述  
