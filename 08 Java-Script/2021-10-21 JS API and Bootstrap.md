@@ -17,10 +17,10 @@
 - 之前還沒有 html5 /css3, 有使用 jQuery 來使用非同步的狀況  - jQuery 使用上會越來越少, 其資源消耗也比較大   
 
 - JS 成熟之後, 有許多新的替代方法產生, 例如  
-![ ``axios:``  Promise based HTTP client for the browser and `node.js` ](https://github.com/axios/axios)  
+[ axios: Promise based HTTP client for the browser and node.js ](https://github.com/axios/axios)  
 
 - 或是現在最常使用的, 如 HTML5 提供了
-![Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)   
+[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)   
 
 - Fetch 使用上跟 `$.ajax` 使用上相近  
 
@@ -38,7 +38,7 @@
 
 # Fetch 使用方式 - 天氣狀況  
 
-- 中央氣象局大概隔很長才會更新一次  
+- 中央氣象局大概隔很長才會更新一次, 印象是 12hr  
 
 - 使用 Fetch 的時候, 藍色部分不太會改動
 - >  ![](https://i.imgur.com/KQPj1Am.png)      
@@ -201,7 +201,7 @@ console.log(JSON.stringify(weather))
 
 - 基本處理好了後可以增進圖片, 動畫  
 - 這是個很好的處理資訊, 看 API 的能力訓練  
-- 可以做出不見的作品
+- 可以做出不錯的作品
 - 大數據後 > python 抓資料  
 
 - 如果用 SVG 檔案m 去做圖形綁點擊事件  
@@ -321,8 +321,8 @@ array.foreach((e, i) {
 
 ----
 
-# What is bootstrap  
-- Framework, 為了要完成某個 task  
+# What is Bootstrap  
+- 他是個 Framework, 為了要完成某個 task  
 > 你需要甚麼功能?  
 > 你需要甚麼工具?  
 ```
@@ -447,11 +447,11 @@ code.jQuery....這一行必須在 cdn 的前面 !
 ![](https://i.imgur.com/U2mjr93.png)   
 
 - sm 
-- 500 以上的時候變  
+> 500 以上的時候變  
 ![](https://i.imgur.com/qon2Fkg.png)  
 
 - lg   
-- 992 以上的時候變兩個   
+> 992 以上的時候變兩個   
 > ![](https://i.imgur.com/M6f7YjI.png)   
 
 - 裡面內建好了一堆東西   
@@ -475,7 +475,7 @@ code.jQuery....這一行必須在 cdn 的前面 !
 > 變版時間點不太一樣  
 > 微軟他是 1600px  
 ```
-或者是可以用 !important  
+或者是可以用 !important  去改
 ```
 > 4 變 2, 2 變 1  
 > 因為被框架固定了, 所以客製化難度高  
