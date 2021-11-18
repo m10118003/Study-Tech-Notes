@@ -1,5 +1,5 @@
 # 2021-11-10 UI design & Layout - Team project & poster intro   
-###### tags: `UI design & Layout` `網站企劃概論` `2021/10/28` `進度筆記` `前端心得`  
+###### tags: `UI design & Layout`  `進度筆記` `前端心得`  
 ---
 
 講師: 盧政憲  
